@@ -203,30 +203,30 @@ local plug_map = {
 		:with_desc("debug: Open REPL"),
 
 	-- Plugin: codeium
-	["i|<C-g>"] = map_callback(function ()
-			return vim.fn['codeium#Accept']()
+	["i|<C-g>"] = map_callback(function()
+			return vim.fn["codeium#Accept"]()
 		end)
 		:with_noremap()
 		:with_silent()
 		:with_desc("codeium: accept"),
 	["i|<c-;>"] = map_callback(function()
-			return vim.fn['codeium#CycleCompletions'](1)
+			return vim.fn["codeium#CycleCompletions"](1)
 		end)
 		:with_noremap()
 		:with_silent()
 		:with_desc("codeium: next completion"),
 	["i|<c-,>"] = map_callback(function()
-			return vim.fn['codeium#CycleCompletions'](-1)
+			return vim.fn["codeium#CycleCompletions"](-1)
 		end)
 		:with_noremap()
 		:with_silent()
 		:with_desc("codeium: previous completion"),
 	["i|<c-x>"] = map_callback(function()
-			return vim.fn['codeium#Clear']()
+			return vim.fn["codeium#Clear"]()
 		end)
 		:with_noremap()
 		:with_silent()
-		:with_desc("codeium: clear")
+		:with_desc("codeium: clear"),
 }
 
 bind.nvim_load_mapping(plug_map)

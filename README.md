@@ -1,6 +1,6 @@
 ### My own modified version of nvimdots setup
 
-Check the original reposiotry: <a href="https://github.com/ayamir/nvimdots">
+<a href="https://github.com/ayamir/nvimdots">Check the original repository</a>
 
 <h1 align="center">
     nvimdots

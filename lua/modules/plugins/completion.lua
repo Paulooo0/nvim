@@ -70,9 +70,9 @@ completion["hrsh7th/nvim-cmp"] = {
 			"Exafunction/codeium.nvim",
 			dependencies = {
 				"nvim-lua/plenary.nvim",
-				"hrsh7th/nvim-cmp"
+				"hrsh7th/nvim-cmp",
 			},
-			config = require("completion.codeium")
+			config = require("completion.codeium"),
 		},
 	},
 }
