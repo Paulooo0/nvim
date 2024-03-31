@@ -100,8 +100,8 @@ local clipboard_config = function()
 			paste = { ["+"] = "pbpaste", ["*"] = "pbpaste" },
 			cache_enabled = 0,
 		}
-	-- elseif global.is_wsl then
-		--[[ vim.g.clipboard = {
+	--[[ elseif global.is_wsl then
+		vim.g.clipboard = {
 			name = "win32yank-wsl",
 			copy = {
 				["+"] = "win32yank.exe -i --crlf",
@@ -111,8 +111,8 @@ local clipboard_config = function()
 				["+"] = "win32yank.exe -o --lf",
 				["*"] = "win32yank.exe -o --lf",
 			},
-			cache_enabled = true, ]]
-		-- }
+			cache_enabled = true,
+		} ]]
 	end
 end
 

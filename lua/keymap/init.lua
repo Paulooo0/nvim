@@ -27,7 +27,6 @@ require("keymap.editor")
 require("keymap.lang")
 require("keymap.tool")
 require("keymap.ui")
-require("keymap.codeium")
 
 -- User keymaps
 local ok, mappings = pcall(require, "user.keymap.init")
