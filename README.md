@@ -1,3 +1,7 @@
+### My own modified version of nvimdots setup
+
+Check the original reposiotry: <a href="https://github.com/ayamir/nvimdots">
+
 <h1 align="center">
     nvimdots
     <br>
