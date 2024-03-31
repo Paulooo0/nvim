@@ -67,12 +67,12 @@ completion["hrsh7th/nvim-cmp"] = {
 		{ "ray-x/cmp-treesitter" },
 		-- { "tzachar/cmp-tabnine", build = "./install.sh", config = require("completion.tabnine") },
 		{
-		"Exafunction/codeium.nvim",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"hrsh7th/nvim-cmp"
+			"Exafunction/codeium.nvim",
+			dependencies = {
+				"nvim-lua/plenary.nvim",
+				"hrsh7th/nvim-cmp"
 			},
-		config = require("completion.codeium")
+			config = require("completion.codeium")
 		},
 	},
 }
