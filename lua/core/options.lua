@@ -79,7 +79,7 @@ local function load_options()
 		swapfile = false,
 		switchbuf = "usetab,uselast",
 		synmaxcol = 2500,
-		tabstop = 4,
+		tabstop = 2,
 		termguicolors = true,
 		timeout = true,
 		timeoutlen = 300,
