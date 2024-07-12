@@ -30,7 +30,7 @@ local disable_distribution_plugins = function()
 	-- vim.g.did_load_filetypes = 1
 
 	-- Do not load native syntax completion
-	vim.g.loaded_syntax_completion = 1
+	-- vim.g.loaded_syntax_completion = 1
 
 	-- Do not load spell files
 	vim.g.loaded_spellfile_plugin = 1

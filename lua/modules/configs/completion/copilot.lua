@@ -7,15 +7,21 @@ return function()
 			},
 			panel = {
 				-- if true, it can interfere with completions in copilot-cmp
-				enabled = false,
+				enabled = true,
 			},
 			suggestion = {
 				-- if true, it can interfere with completions in copilot-cmp
-				enabled = false,
+				enabled = true,
 			},
 			filetypes = {
+				["bigfile"] = false,
 				["dap-repl"] = false,
-				["big_file_disabled_ft"] = false,
+				["fugitive"] = false,
+				["fugitiveblame"] = false,
+				["git"] = false,
+				["gitcommit"] = false,
+				["log"] = false,
+				["toggleterm"] = false,
 			},
 		})
 	end, 100)

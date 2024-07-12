@@ -1,5 +1,5 @@
 local completion = {}
--- local use_copilot = require("core.settings").use_copilot
+local use_copilot = require("core.settings").use_copilot
 
 completion["neovim/nvim-lspconfig"] = {
 	lazy = true,
@@ -66,17 +66,17 @@ completion["hrsh7th/nvim-cmp"] = {
 		{ "kdheepak/cmp-latex-symbols" },
 		{ "ray-x/cmp-treesitter" },
 		-- { "tzachar/cmp-tabnine", build = "./install.sh", config = require("completion.tabnine") },
-		{
-			"Exafunction/codeium.nvim",
-			dependencies = {
-				"nvim-lua/plenary.nvim",
-				"hrsh7th/nvim-cmp",
-			},
-			config = require("completion.codeium"),
-		},
+		-- {
+		-- 	"Exafunction/codeium.nvim",
+		-- 	dependencies = {
+		-- 		"nvim-lua/plenary.nvim",
+		-- 		"hrsh7th/nvim-cmp",
+		-- 	},
+		-- 	config = require("completion.codeium"),
+		-- },
 	},
 }
---[[ if use_copilot then
+if use_copilot then
 	completion["zbirenbaum/copilot.lua"] = {
 		lazy = true,
 		cmd = "Copilot",
@@ -89,6 +89,6 @@ completion["hrsh7th/nvim-cmp"] = {
 			},
 		},
 	}
-end ]]
+end
 
 return completion
