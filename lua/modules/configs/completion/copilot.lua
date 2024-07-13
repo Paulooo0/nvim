@@ -7,11 +7,12 @@ return function()
 			},
 			panel = {
 				-- if true, it can interfere with completions in copilot-cmp
-				enabled = true,
+				enabled = false,
+				
 			},
 			suggestion = {
 				-- if true, it can interfere with completions in copilot-cmp
-				enabled = true,
+				enabled = false,
 			},
 			filetypes = {
 				["bigfile"] = false,
