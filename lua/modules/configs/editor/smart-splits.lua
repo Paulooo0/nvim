@@ -33,7 +33,7 @@ return function()
 		--    direction = 'left'|'right'|'up'|'down',
 		--    split(), -- utility function to split current Neovim pane in the current direction
 		--    wrap(), -- utility function to wrap to opposite Neovim pane
-		-- }
+		-- },
 		-- NOTE: `at_edge = 'wrap'` is not supported on Kitty terminal
 		-- multiplexer, as there is no way to determine layout via the CLI
 		at_edge = "wrap",
