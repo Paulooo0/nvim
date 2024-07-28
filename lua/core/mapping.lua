@@ -5,6 +5,8 @@ local map_cmd = bind.map_cmd
 local map_callback = bind.map_callback
 
 local core_map = {
+	["i|jk"] = map_cmd("<ESC>"):with_noremap():with_silent(),
+	["i|kj"] = map_cmd("<ESC>"):with_noremap():with_silent(),
 	-- Suckless
 	["n|<S-Tab>"] = map_cr("normal za"):with_noremap():with_silent():with_desc("edit: Toggle code fold"),
 	["n|<C-s>"] = map_cu("write"):with_noremap():with_silent():with_desc("edit: Save file"),
