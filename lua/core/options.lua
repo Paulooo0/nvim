@@ -71,7 +71,7 @@ local function load_options()
 		signcolumn = "yes",
 		smartcase = true,
 		smarttab = true,
-		softtabstop = 4,
+		softtabstop = 2,
 		splitbelow = true,
 		splitkeep = "screen",
 		splitright = true,
@@ -99,7 +99,7 @@ local function load_options()
 		winblend = 0,
 		winminwidth = 10,
 		winwidth = 30,
-		wrap = false,
+		wrap = true,
 		wrapscan = true,
 		writebackup = false,
 	}

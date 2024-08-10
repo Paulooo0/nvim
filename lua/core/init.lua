@@ -61,7 +61,7 @@ local disable_distribution_plugins = function()
 	vim.g.loaded_matchparen = 1
 
 	-- Disable sql omni completion
-	vim.g.loaded_sql_completion = 1
+	-- vim.g.loaded_sql_completion = 0
 
 	-- Set this to 0 in order to disable native EditorConfig support
 	vim.g.editorconfig = 1
